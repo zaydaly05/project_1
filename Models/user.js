@@ -5,6 +5,7 @@ const dashboard = new UserDashboard({
   userId: someUserId,
   totalReadings: 25,
   activeStations: 3
+  
 });
 await dashboard.save();
 
